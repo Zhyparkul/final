@@ -1,0 +1,161 @@
+:root {
+  --accent: #174180;
+  --accent-light: #3764f7;
+  --pure-white: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  color: blueviolet;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+.header a {
+  color: #ffff;
+  text-decoration: none;
+}
+.header-navigation {
+  padding: 10px 0;
+  background-color: var(--accent);
+  color: #ffff;
+}
+.header-logo {
+  float: left;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+.menu-item {
+  display: inline-block;
+}
+.menu-link {
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-size: 16px;
+}
+.intro {
+  padding: 60 px 0;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+intro-left {
+  width: 30%;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-right h1 .intro-right h3 {
+  margin: 0 0 15px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.contacts li {
+  text-align: center;
+}
+.skills {
+  padding: 60px 0;
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills li {
+  padding: 10px 25px;
+  margin: 0;
+  background-color: var(--accent-light);
+  border-radius: 5px;
+}
+.education {
+  background-color: var(--accent);
+  color: var(--pure-white);
+}
+.education ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.education li {
+  padding: 10px 25px;
+  margin: 0;
+  background-color: var(--accent-light);
+  border-radius: 5px;
+}
+.languages {
+  padding: 60px 0;
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+.languages ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.languages li {
+  padding: 10px 25px;
+  margin: 0;
+  background-color: var(--accent-light);
+  border-radius: 5px;
+}
+
+.container-2 {
+  width: 1140px;
+  margin: 0 auto;
+}
